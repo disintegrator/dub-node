@@ -3,6 +3,8 @@ sources:
     my-first-source:
         inputs:
             - location: https://api.dub.co
+        overlays:
+            - location: ./overlay.yaml
 targets:
     my-first-target:
         target: typescript
